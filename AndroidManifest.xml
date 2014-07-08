@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="achira.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+    <original-package />
+ 
+ <supports-screens android:xlargeScreens="true" />
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            
+            android:name=".AchActivity"
+            android:label="@string/app_name" >
+          
+     
+         <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menuActivity"
+            android:label="@string/app_name" ></activity>
+        <activity
+            android:name=".result_mode"
+            android:label="@string/app_name" ></activity>
+         <activity
+            android:name=".test_me"
+            android:label="@string/app_name" ></activity>
+     
+          <activity
+            android:name=".prog1"
+            android:label="@string/app_name" ></activity>
+           <activity
+            android:name=".setting_mode"
+            android:label="@string/app_name" ></activity>
+             <activity
+            android:name=".GridList"
+            android:label="@string/app_name" ></activity>
+            
+    </application>
+
+</manifest>

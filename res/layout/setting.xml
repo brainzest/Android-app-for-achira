@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:background="@drawable/bg"
+ 
+    android:scrollbars="vertical">
+    
+   
+<Button
+        android:id="@+id/abort"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="406dp"
+         android:textColor="#ff009999"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/home"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="407dp"
+         android:textColor="#ff009999"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="405dp"
+         android:textColor="#ff009999"
+        android:text="Save" />
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="73dp"
+	android:layout_height="27dp"
+	android:background="#ffffffff"
+	android:text="FLUID X"
+	android:textSize="16sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff009999"
+	android:layout_x="7dp"
+	android:layout_y="63dp" />
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="73dp"
+	android:layout_height="27dp"
+	android:background="#ffffffff"
+	android:text="FLUID Y"
+	android:textSize="16sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff009999"
+	android:layout_x="6dp"
+	android:layout_y="101dp" />
+
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="55dp"
+	android:layout_height="27dp"
+	android:background="#ffffffff"
+	android:text="LAS X"
+	android:textSize="16sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff009999"
+	android:layout_x="173dp"
+	android:layout_y="63dp" />
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="55dp"
+	android:layout_height="24dp"
+	android:background="#ffffffff"
+	android:text="LAS Y"
+	android:textSize="16sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff009999"
+	android:layout_x="173dp"
+	android:layout_y="103dp" />
+<EditText
+	android:id="@+id/widget45"
+	android:background="#ff009999"
+       
+        android:textColor="#ffffffff"
+	android:layout_width="69dp"
+	android:layout_height="37dp"
+	android:text=" "
+	android:textSize="18sp"
+	android:layout_x="88dp"
+	android:layout_y="99dp" />
+<EditText
+	android:id="@+id/widget46"
+	android:background="#ff009999"
+       
+        android:textColor="#ffffffff"
+	android:layout_width="71dp"
+	android:layout_height="37dp"
+	android:text=" "
+	android:textSize="18sp"
+	android:layout_x="240dp"
+	android:layout_y="99dp" />
+<EditText
+	android:id="@+id/widget46"
+	android:background="#ff009999"
+       
+        android:textColor="#ffffffff"
+	android:layout_width="71dp"
+	android:layout_height="37dp"
+	android:text=" "
+	android:textSize="18sp"
+	android:layout_x="239dp"
+	android:layout_y="61dp" />
+
+<TextView
+    android:id="@+id/widget32"
+    android:layout_width="104dp"
+    android:layout_height="32dp"
+    android:layout_x="7dp"
+    android:layout_y="148dp"
+    android:background="#ffffffff"
+    android:text="GEL DIST"
+    android:textColor="#ff009999"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:typeface="monospace" />
+
+<EditText
+    android:id="@+id/EditText01"
+    android:layout_width="98dp"
+    android:layout_height="37dp"
+    android:layout_x="101dp"
+    android:layout_y="140dp"
+    android:background="#ff009999"
+    android:ems="10"
+    android:text=" "
+    android:textColor="#ffffffff"
+    android:textSize="18sp" >
+
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/TextView01"
+    android:layout_width="134dp"
+    android:layout_height="32dp"
+    android:layout_x="5dp"
+    android:layout_y="258dp"
+    android:background="#ffffffff"
+    android:text="LASER POWER"
+    android:textColor="#ff009999"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:typeface="monospace" />
+
+<EditText
+    android:id="@+id/widget45"
+    android:layout_width="69dp"
+    android:layout_height="37dp"
+    android:layout_x="88dp"
+    android:layout_y="60dp"
+    android:background="#ff009999"
+    android:ems="10"
+    android:text=" "
+    android:textColor="#ffffffff"
+    android:textSize="18sp" />
+
+<EditText
+    android:id="@+id/EditText02"
+    android:layout_width="71dp"
+    android:layout_height="37dp"
+    android:layout_x="144dp"
+    android:layout_y="258dp"
+    android:background="#ff009999"
+    android:ems="10"
+    android:text=" "
+    android:textColor="#ffffffff"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/gain"
+    android:layout_width="134dp"
+    android:layout_height="32dp"
+    android:layout_x="1dp"
+    android:layout_y="309dp"
+    android:background="#ffffffff"
+    android:text="GAIN"
+    android:textColor="#ff009999"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:typeface="monospace" />
+
+<EditText
+    android:id="@+id/EditText03"
+    android:layout_width="71dp"
+    android:layout_height="37dp"
+    android:layout_x="138dp"
+    android:layout_y="309dp"
+    android:background="#ff009999"
+    android:ems="10"
+    android:text=" "
+    android:textColor="#ffffffff"
+    android:textSize="18sp" />
+
+<Button
+    android:id="@+id/Button01"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="186dp"
+    android:layout_height="wrap_content"
+    android:layout_x="136dp"
+    android:background="#ff99ffcc"
+     android:textSize="16sp"
+    android:layout_y="190dp"
+    android:text="View all Tests"
+     android:onClick="btnTest_Click"
+    android:textColor="#ff009999" />
+
+</AbsoluteLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:padding="8dp"
+    android:scrollbars="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="190dp"
+        android:scrollbars="vertical" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <Spinner
+                android:id="@+id/spinDept1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff009999" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Patient Name"
+                android:textColor="#ff009999"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Age"
+                android:textColor="#ff009999"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Contact"
+                android:textColor="#ff009999"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Referred"
+                android:textColor="#ff009999"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Gender"
+                android:textColor="#ff009999"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Test Name"
+                android:textColor="#ff009999"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+        </TableRow>
+
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numColumns="1"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth" >
+        </GridView>
+
+        <TextView
+            android:id="@+id/txtTest"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Age" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/backtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/hometest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/menutest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Menu" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_marginTop="201dp"
+        android:text="RESULTS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff009999"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gel3"
+        android:layout_width="73dp"
+        android:layout_height="27dp"
+     
+        android:layout_alignParentLeft="true"
+         android:layout_below="@+id/TextView01"
+        android:layout_marginTop="35dp"
+        android:background="#ffffffff"
+        android:text="Gel3"
+        android:textColor="#ff009999"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/widget32"
+        android:layout_width="73dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="50dp"
+        android:background="#ffffffff"
+        android:text="Gel1"
+        android:textColor="#ff009999"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="73dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/widget32"
+        android:layout_marginTop="35dp"
+        android:background="#ffffffff"
+        android:text="Gel2"
+        android:textColor="#ff009999"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+</RelativeLayout> 

@@ -1,0 +1,299 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+         android:background="@drawable/bg"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="47dp"
+            android:layout_weight="1"
+            android:text="Test Name" />
+
+        <EditText
+            android:id="@+id/EnterTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/button1"
+            android:layout_toRightOf="@+id/button1"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="37dp"
+            android:layout_toLeftOf="@+id/EnterTest"
+            android:text="Process Sequence" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignLeft="@+id/EnterTest"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/start"
+            android:layout_alignBottom="@+id/start"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/start"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/save"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:text="Button" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="37dp"
+            android:layout_weight="1"
+            android:shrinkColumns="3"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff009999" >
+
+                <TextView
+                    android:id="@+id/aftID"
+                    android:text="ID"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:text="A"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:text="F"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:text="T"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffffff"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:textColor="#ff000000" >
+
+                <EditText android:id="@+id/id1" />
+
+                <EditText android:id="@+id/a1" />
+
+                <EditText android:id="@+id/f1" />
+
+                <EditText android:id="@+id/t1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText android:id="@+id/id2" />
+
+                <EditText android:id="@+id/a2" />
+
+                <EditText android:id="@+id/f2" />
+
+                <EditText android:id="@+id/t2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText android:id="@+id/id3" />
+
+                <EditText android:id="@+id/a3" />
+
+                <EditText android:id="@+id/f3" />
+
+                <EditText android:id="@+id/t3" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tableLayout1"
+            android:layout_toRightOf="@+id/start"
+            android:layout_weight="1"
+            android:shrinkColumns="3"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff009999" >
+
+                <TextView
+                    android:id="@+id/aftID"
+                    android:text="ID"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:text="A"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:text="F"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:text="T"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffffff"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:textColor="#ff000000" >
+
+                <EditText android:id="@+id/id6" />
+
+                <EditText android:id="@+id/a6" />
+
+                <EditText android:id="@+id/f6" />
+
+                <EditText android:id="@+id/t6" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffffff"
+                android:ems="10"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center_horizontal"
+                 android:textColor="#ff000000"
+            android:layout_alignRight="@+id/tableLayout1"
+            android:layout_below="@+id/tableLayout2"
+            android:layout_marginTop="214dp"
+            android:text="SEQ CyCLE" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignRight="@+id/save"
+            android:layout_toRightOf="@+id/start"
+            android:ems="10"
+              android:background="#ffffffff"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignTop="@+id/textView1"
+            android:background="#ffffffff"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="37dp"
+            android:onClick="btnAddTest"
+            android:text="Add Test" />
+
+    </RelativeLayout>

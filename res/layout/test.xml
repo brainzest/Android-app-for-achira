@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_test"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:padding="8px"
+    android:scrollbars="vertical" >
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="31dp"
+        android:layout_weight="1"
+        android:background="#ffe5f1f1"
+        android:ems="10"
+        android:hint="Enter UID"
+        android:inputType="number"
+        android:textColor="#ff009999"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="Start"
+        android:textColor="#ff009999" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtEmps"
+        android:layout_marginTop="55dp"
+        android:layout_weight="1"
+        android:background="#ff009999"
+        android:text=" Name"
+        android:textColor="#ffe5f1f1" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/b2"
+        android:layout_below="@+id/b2"
+        android:layout_marginTop="26dp"
+        android:layout_weight="1"
+        android:background="#ff009999"
+        android:text="Age"
+        android:textColor="#ffe5f1f1" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/b3"
+        android:layout_below="@+id/b3"
+        android:layout_marginTop="54dp"
+        android:layout_weight="1"
+        android:background="#ff009999"
+        android:text="Referred By"
+        android:textColor="#ffe5f1f1" />
+
+    <EditText
+        android:id="@+id/doc"
+        android:layout_width="181dp"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/b5"
+        android:layout_alignLeft="@+id/id"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:background="#ffe5f1f1"
+        android:ems="10"
+        android:hint="Doctor Name"
+        android:inputType="textPersonName"
+        android:textColor="#ff009999"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/id"
+        android:layout_alignRight="@+id/id"
+        android:layout_below="@+id/id"
+        android:layout_weight="1"
+        android:background="#ffe5f1f1"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textColor="#ff009999"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/b5"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignRight="@+id/name"
+        android:layout_weight="1"
+        android:background="#ffe5f1f1"
+        android:ems="10"
+        android:hint="Enter your age"
+        android:inputType="number"
+        android:textColor="#ff009999"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/b5"
+        android:layout_below="@+id/b5"
+        android:layout_marginTop="46dp"
+        android:layout_weight="1"
+        android:background="#ff009999"
+        android:text="Contact"
+        android:textColor="#ffe5f1f1" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:layout_alignLeft="@+id/doc"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/b4"
+        android:layout_weight="1"
+        android:background="#ffe5f1f1"
+        android:ems="10"
+        android:hint="Enter Phone no"
+        android:phoneNumber="true"
+        android:textColor="#ff009999"
+        android:textStyle="bold"
+        android:typeface="monospace" >
+
+        <requestFocus android:layout_width="match_parent" />
+    </EditText>
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b4"
+        android:layout_alignRight="@+id/b4"
+        android:layout_below="@+id/b4"
+        android:layout_marginTop="71dp"
+        android:layout_weight="1"
+        android:background="#ff009999"
+        android:text="Gender"
+        android:textColor="#ffe5f1f1" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/b6"
+        android:layout_below="@+id/b6"
+        android:layout_marginTop="41dp"
+        android:layout_weight="1"
+        android:background="#ff009999"
+        android:text="Test Name"
+        android:textColor="#ffe5f1f1" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:text="Back"
+        android:textColor="#ff009999" />
+
+    <TextView
+        android:id="@+id/txtEmps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="31dp"
+        android:layout_weight="1"
+        android:text="Number of tests " />
+
+    <Button
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/txtEmps"
+        android:layout_weight="1"
+        android:background="#ff009999"
+        android:text="UID"
+        android:textColor="#ffe5f1f1" />
+
+    <Spinner
+        android:id="@+id/spinDept"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignTop="@+id/b8"
+        android:layout_weight="1"
+        android:background="#ff009999" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/b8"
+        android:layout_alignLeft="@+id/spinDept"
+        android:layout_alignRight="@+id/spinDept"
+        android:layout_alignTop="@+id/b6"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinDept"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:text="Male"
+            android:textColor="#ff009999" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/male"
+            android:layout_alignBottom="@+id/male"
+            android:layout_alignRight="@+id/editText2"
+            android:text="Female"
+            android:textColor="#ff009999" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinDept"
+        android:layout_below="@+id/b8"
+        android:layout_marginTop="31dp"
+        android:onClick="btnAddEmp_Click"
+        android:text="Add TEST" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:text="Home"
+        android:textColor="#ff009999" />
+
+</RelativeLayout>
